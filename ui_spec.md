@@ -13,7 +13,7 @@ This document shows the user interface design specifications for the user manage
 User Management Screen
 ======================
 
-The user management screen consists of two main areas, containers that include inner components. In Figure-1 it can be seen that Area 2 consists of two inner containers that are row aligned. Thus, the blueprint components of this screen structure is given below which is further discussed in the rest of the report.
+The user management screen consists of two main areas that are containers including inner components or elements. The blueprint components of this screen structure are given below which is further discussed in the rest of the report.
 
 -   Area 1
 -   Area 2
@@ -52,7 +52,7 @@ In this field, there will be a button that will enable the user to save a new us
 Area 2
 ------
 
-As in Figure-2 “Area 2” consists of two sub-containers which include specific components.  
+In Figure-1 it can be seen that Area 2 consists of two inner containers that are row aligned. These two sub-areas which are referred to as left sub-area and right sub-area include some specific components.  
 
 ### Left Sub-Area
 
@@ -70,7 +70,7 @@ This field will include a table that will show the user the registered users in 
 
 ### Right Sub-Area
 
-When the page has first opened the container on the right side should not be shown by default. It should be available to the user when the user clicks on the “New User Button” in the “Area 1”. After the user confirms the new user by clicking “Save User Button” this container should disappear from the screen, it should be invisible. This right container’s visibility will depend on the user’s actions. The sub-right sub-container includes two components that are column aligned.
+When the page has first opened the container on the right side should not be shown by default. It should be available to the user when the user clicks on the “New User Button” in the “Area 1”. After the user confirms the new user by clicking “Save User Button” this container should disappear from the screen, it should be invisible. This right container’s visibility will depend on the user’s actions. The right sub-container includes two components that are column aligned.
 
 #### New User Title
 
